@@ -23,4 +23,39 @@ public class Teacher {
         this.name=name;
         this.salary=salary;
     }
+
+    /**
+     *
+     * @return the id of the teacher.
+     */
+
+    public int getId() {
+        return id;
+    }
+
+    /**
+     *
+     * @return name of the teacher.
+     */
+
+    public String getName() {
+        return this.name;
+    }
+
+    /**
+     *
+     * @return the salary of the teacher.
+     */
+    public int getSalary() {
+        return salary;
+    }
+
+    /**
+     * set the salary.
+     * @param salary
+     */
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
 }
